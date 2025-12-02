@@ -34,3 +34,18 @@ pub fn print_grid(map: &Vec<Vec<char>>, title: &str) {
         .for_each(|line| println!("{}", line.iter().collect::<String>()));
     println!();
 }
+
+pub fn num_of_digits(num: usize) -> usize {
+    if num == 0 {
+        return 1;
+    }
+
+    let mut count = 0;
+    let mut rest = num;
+    while rest > 0 {
+        rest /= 10;
+        count += 1;
+    }
+
+    count
+}
