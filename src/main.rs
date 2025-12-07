@@ -4,6 +4,12 @@ mod day03;
 mod day04;
 mod day05;
 mod day06;
+mod day07;
+// mod day08;
+// mod day09;
+// mod day10;
+// mod day11;
+// mod day11;
 mod utils;
 
 fn main() {
@@ -18,6 +24,18 @@ fn main() {
     // day04::solve();
     // println!("Day 5:");
     // day05::solve();
-    println!("Day 6:");
-    day06::solve();
+    // println!("Day 6:");
+    // day06::solve();
+    println!("Day 7:");
+    day07::solve();
+    // println!("Day 8:");
+    // day08::solve();
+    // println!("Day 9:");
+    // day09::solve();
+    // println!("Day 10:");
+    // day10::solve();
+    // println!("Day 11:");
+    // day11::solve();
+    // println!("Day 12:");
+    // day12::solve();
 }
