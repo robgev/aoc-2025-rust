@@ -49,3 +49,7 @@ pub fn num_of_digits(num: usize) -> usize {
 
     count
 }
+
+pub fn calculate_area(p1: (usize, usize), p2: (usize, usize)) -> usize {
+    (p1.0.abs_diff(p2.0) + 1) * (p1.1.abs_diff(p2.1) + 1)
+}
